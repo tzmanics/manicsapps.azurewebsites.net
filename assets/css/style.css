@@ -1,33 +1,37 @@
 body{
-	font-family: 'Raleway Dots', sans-serif;
+	font-family: helvetica, sans-serif;
+	font-weight: 100;
 	background-color: #d8dfe8;
-	text-align: center;
+	text-align: left;
 }
 h1{
-	font-size: 72px;
+	font-size: 5em;
 }
 h2{
-	font-size: 32pt;
-	text-align: right;
+	font-size: 2em;
+	padding-left: .75em;
 }
 h3{
-	font-size: 27pt;
-	text-align: left;
+	font-size: 1.5em;
 }
 a{
 	text-decoration: none;
 	color: black;
 }
 a:hover{
-	color: #808080;
+	color: #F34100;
+}
+
+header{
+	text-align: center;
 }
 article{
-	width: 320px;
+	width: 100%;
 	height: 370px;
-	margin: 22px;
 	padding: 5px;
-	background-color: #FFF999;
+	background-color: rgba(153, 255, 153,.1);
 	float: left;
+	border: 5px solid white;
 }
 footer{
 	background-color: #CCFFFF;
@@ -40,5 +44,19 @@ footer{
 
 	text-align: center;
 	font-size: 12px;
+}
+
+ul {
+		margin-top: 1em;
+}
+
+li{
+	display: inline;
+	font-size: 1.75em;
+	padding: 0 .5em;
+	}
+
+.content{
+	margin-top: 1em;
 }
 /* 'Poiret One' 'Megrim'*/
